@@ -16,11 +16,12 @@ const value = document.querySelector(".value__js");
 
 realValue = parseInt(value.innerHTML);
 realValue = localStorage.getItem(dateKey);
+realValue >= 99 ? localStorage.setItem(dateKey, 99) : realValue;
+realValue = localStorage.getItem(dateKey);
 value.innerHTML=realValue;
 
 addButton.addEventListener("click", () => {
- 
-    realValue++;
+    if (realValue!==99) realValue++;
     value.innerHTML = realValue;
     localStorage.setItem(dateKey, realValue);
 
