@@ -21,7 +21,7 @@ realValue = localStorage.getItem(dateKey);
 value.innerHTML=realValue;
 
 addButton.addEventListener("click", () => {
-    if (realValue!==99) realValue++;
+    if (realValue < 99) realValue++;
     value.innerHTML = realValue;
     localStorage.setItem(dateKey, realValue);
 
