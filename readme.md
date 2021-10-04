@@ -8,4 +8,4 @@ npm install
 ```
 Aplikacja jest na bazie projektu z figmy.
 Podgląd gotwewj aplikacji:
-[hydroapp](https://nodejs.org/)
+[hydroapp](https://tomaszjader.github.io/hydrapp/)
