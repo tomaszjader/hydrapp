@@ -1,18 +1,11 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
-
-# WTF Webpack Starter Kit 
-
-Simple toolkit for your static websites development.
-
-## How to use it?
-
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
-
-## Available scripts
-
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
-
+# Hydroapp
+Jest to aplikacja która pozwala zliczać szklanki wypitego aktualnego dnia.
+Zapisuje dane w pamięci i jest aplikacją pwa. 
+Aby ją uruchomić wystarczy użyć następujących instrukcji. 
+```sh
+git clone https://github.com/tomaszjader/hydrapp.git
+npm install
+```
+Aplikacja jest na bazie projektu z figmy.
+Podgląd gotwewj aplikacji:
+[hydroapp](https://nodejs.org/)
